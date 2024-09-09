@@ -42,7 +42,7 @@ const imagewidget = () => {
           ) : (
             ""
           )}
-          <button className="nav" onClick={() => setForm(true)}>
+          <button className="bg-neutral-600 rounded-full text-white py-1 px-3" onClick={() => setForm(true)}>
             Add image
           </button>
         </div>
